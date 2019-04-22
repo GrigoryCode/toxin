@@ -33,3 +33,27 @@ h1 {
     line-height: normal;
     color: #1F2041;
 }
+
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1160px;
+    }
+}
+
+.container {
+    // width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: beige;
+}
+
+.nav {
+    height: 70px;
+}
+
+.content {
+    height: 830px;
+    background: url(./img/image.png) no-repeat;
+    background-size: cover;
+}

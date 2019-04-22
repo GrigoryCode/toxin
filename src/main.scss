@@ -1,5 +1,35 @@
+@import 'normalize.css';
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./fonts/Quicksand-Regular.ttf');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./fonts/Quicksand-Bold.ttf');
+    font-weight: bold;
+    font-style: normal; 
+}
+
+
 $color_h1: tomato;
 
 h1 {
     color: $color_h1;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+    color: #1F2041;
 }

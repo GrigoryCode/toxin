@@ -1,4 +1,5 @@
 @import 'normalize.css';
+@import './blocks/nav-bar/nav-bar';
 
 @font-face {
     font-family: 'Montserrat';
@@ -21,11 +22,7 @@
     font-style: normal; 
 }
 
-
-$color_h1: tomato;
-
 h1 {
-    color: $color_h1;
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
@@ -35,25 +32,27 @@ h1 {
 }
 
 
-@media (min-width: 1200px){
-    .container {
-        max-width: 1160px;
-    }
-}
+// @media (min-width: 1200px){
+//     .container {
+//         max-width: 1160px;
+//     }
+// }
 
 .container {
-    // width: 1160px;
+    width: 1200px;
     margin: 0 auto;
     height: 100%;
-    background-color: beige;
+    // background-color: beige;
 }
 
-.nav {
-    height: 70px;
-}
+// .nav {
+//     height: 70px;
+// }
 
 .content {
     height: 830px;
     background: url(./img/image.png) no-repeat;
     background-size: cover;
 }
+
+

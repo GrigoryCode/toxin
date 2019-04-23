@@ -1,5 +1,9 @@
 @import 'normalize.css';
 @import './blocks/nav-bar/nav-bar';
+@import './blocks/content/content';
+@import './blocks/footer-1/footer-1';
+@import './blocks/footer-2/footer-2';
+
 
 @font-face {
     font-family: 'Montserrat';
@@ -20,39 +24,6 @@
     src: url('./fonts/Quicksand-Bold.ttf');
     font-weight: bold;
     font-style: normal; 
-}
-
-h1 {
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: normal;
-    color: #1F2041;
-}
-
-
-// @media (min-width: 1200px){
-//     .container {
-//         max-width: 1160px;
-//     }
-// }
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    height: 100%;
-    // background-color: beige;
-}
-
-// .nav {
-//     height: 70px;
-// }
-
-.content {
-    height: 830px;
-    background: url(./img/image.png) no-repeat;
-    background-size: cover;
 }
 
 

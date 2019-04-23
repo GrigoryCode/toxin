@@ -70,11 +70,11 @@
     margin-top: 92px;
 }
 
-.text-sub-1 {
+.footer-1__sub {
     margin-top: 23px
 }
 
-input.text-sub-1__input {
+.footer-1__sub-input {
     width: 216px;
     height: 44px;
     left: 141px;
@@ -98,7 +98,7 @@ input.text-sub-1__input {
     vertical-align: top;
 }
 
-button.text-sub-1__btn {
+.footer-1__sub-btn {
     width: 44px;
     height: 44px;
     background: #FFFFFF;
@@ -115,11 +115,10 @@ button.text-sub-1__btn {
     padding: 0 12px;
     vertical-align: middle;
     position: relative;
-    // vertical-align: top;
     border-left: none;
 }
 
-.text-sub-1__arrow {
+.footer-1__sub-arrow {
     position: absolute;
     right: 12px;
     top: 12px;

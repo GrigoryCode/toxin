@@ -4,3 +4,25 @@
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
     border-top: 1px solid rgba(31, 32, 65, 0.25);
 }
+
+.footer-2__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+.block-6 {
+    height: 30px;
+    background-color: aquamarine;
+    // flex: 130px;
+    width: 300px;
+}
+
+.block-7 {
+    height: 30px;
+    background-color: tomato;
+    // flex: 100px;
+    width: 200px;
+}

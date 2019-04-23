@@ -3,3 +3,46 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
+
+.footer-1__container {
+    display: flex;
+    // justify-content: flex-start;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+.block-1 {
+    height: 300px;
+    background-color: aquamarine;
+    // flex: 130px;
+    width: 300px;
+}
+
+.block-2 {
+    height: 300px;
+    background-color: tomato;
+    // flex: 100px;
+    width: 200px;
+}
+
+.block-3 {
+    height: 300px;
+    background-color: aquamarine;
+    // flex: 1;
+    width: 200px;
+}
+
+.block-4 {
+    height: 300px;
+    background-color: tomato;
+    // flex: 1;
+    width: 200px;
+}
+
+.block-5 {
+    height: 300px;
+    background-color: aquamarine;
+    // flex: 2;
+    width: 260px;
+}

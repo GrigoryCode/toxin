@@ -12,37 +12,115 @@
     max-width: 1160px;
 }
 
-.block-1 {
-    height: 300px;
-    background-color: aquamarine;
-    // flex: 130px;
+.footer-1__block-1 {
     width: 300px;
+    margin-top: 100px;
 }
 
-.block-2 {
-    height: 300px;
-    background-color: tomato;
-    // flex: 100px;
+.footer-1__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    margin-top: 18px;
+    // margin-bottom: 0;
+}
+
+.footer-1__block-2 {
     width: 200px;
+    margin-top: 92px;
 }
 
-.block-3 {
-    height: 300px;
-    background-color: aquamarine;
-    // flex: 1;
+.footer-1__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+
+.footer-1__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: rgba(31, 32, 65, 0.5);
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.footer-1__block-3 {
     width: 200px;
+    margin-top: 92px;
 }
 
-.block-4 {
-    height: 300px;
-    background-color: tomato;
-    // flex: 1;
+.footer-1__block-4 {
     width: 200px;
+    margin-top: 92px;
 }
 
-.block-5 {
-    height: 300px;
-    background-color: aquamarine;
-    // flex: 2;
+.footer-1__block-5 {
     width: 260px;
+    margin-top: 92px;
+}
+
+.text-sub-1 {
+    margin-top: 23px
+}
+
+input.text-sub-1__input {
+    width: 216px;
+    height: 44px;
+    left: 141px;
+    top: 163px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 15px;
+    color: rgba(31, 32, 65, 0.25);
+    border-right: none;
+}
+
+.footer-1__sub-form {
+    display: inline-block;
+    vertical-align: top;
+}
+
+button.text-sub-1__btn {
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 0 4px 4px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    text-align: left;
+    padding: 0 12px;
+    vertical-align: middle;
+    position: relative;
+    // vertical-align: top;
+    border-left: none;
+}
+
+.text-sub-1__arrow {
+    position: absolute;
+    right: 12px;
+    top: 12px;
 }

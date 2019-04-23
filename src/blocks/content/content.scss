@@ -27,7 +27,7 @@
     padding: 29px;
 }
 
-h1.card-1__title {
+.card-1__title {
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
@@ -49,7 +49,7 @@ h1.card-1__title {
     display: inline-block;
 }
 
-h3.card-1__h3 {
+.card-1__h3 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -57,10 +57,10 @@ h3.card-1__h3 {
     line-height: normal;
     text-transform: uppercase;
     color: #1F2041;
-    margin: 10px 0 5px 0;
+    margin: 9px 0 5px 0;
 }
 
-button.card-1__dropdown-1 {
+.card-1__dropdown-1 {
     width: 150px;
     height: 44px;
     background: #FFFFFF;
@@ -79,7 +79,7 @@ button.card-1__dropdown-1 {
     position: relative;
 }
 
-img.card-1__drop {
+.card-1__drop {
     position: absolute;
     right: 15px;
     top: 18px;
@@ -89,7 +89,7 @@ img.card-1__drop {
     margin: 20px 0 0 0;
 }
 
-button.card-1__dropdown-2 {
+.card-1__dropdown-2 {
     width: 320px;
     height: 44px;
     background: #FFFFFF;
@@ -108,7 +108,7 @@ button.card-1__dropdown-2 {
     position: relative;
 }
 
-a.card-1__button {
+.card-1__button {
     border: none;
     border-radius: 22px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
@@ -127,11 +127,11 @@ a.card-1__button {
     position: relative;
 }
 
-a.card-1__button:hover {
+.card-1__button:hover {
     opacity: 0.5;
 }
 
-img.card-1__arrow {
+.card-1__arrow {
     position: absolute;
     right: 12px;
     top: 14px;
@@ -148,7 +148,7 @@ img.card-1__arrow {
 //     right: 15px;
 // }
 
-p.sign__text {
+.sign__text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;

@@ -13,7 +13,7 @@
     max-width: 1160px;
 }
 
-.footer-2_text {
+.footer-2__text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -23,9 +23,26 @@
     margin-top: 26px;
 }
 
-.block-7 {
-    height: 30px;
-    background-color: tomato;
-    // flex: 100px;
-    width: 200px;
+// .block-7 {
+//     height: 30px;
+//     background-color: tomato;
+//     flex: 100px;
+//     width: 200px;
+// }
+
+.footer-2__social {
+    margin-top: 24px;
+}
+
+.logo-instagram {
+    margin-right: 2px;
+}
+
+.logo-facebook {
+    margin-right: 22px;
+}
+
+.logo-twitter {
+    margin-right: 21px;
+    margin-bottom: 1px;
 }

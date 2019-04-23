@@ -14,7 +14,7 @@
     max-width: 1160px;
 }
 
-img.logo-img {
+.logo-img {
     vertical-align: middle;
 }
 
@@ -22,7 +22,7 @@ img.logo-img {
     display: flex;
 }
 
-ul.nav__ul {
+.nav__ul {
     display: inline-block;
     flex-wrap: wrap;
     padding: 25px 0;
@@ -30,11 +30,11 @@ ul.nav__ul {
     margin-block-start: 0;
 }
 
-li.nav__li {
+.nav__li {
     display: inline-block;
 }
 
-a.nav__a {
+.nav__a {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -45,7 +45,7 @@ a.nav__a {
     margin: 0 10px;
 }
 
-a.nav__a:focus {
+.nav__a:focus {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -66,7 +66,7 @@ a.nav__a:focus {
     opacity: 0.5;
 }
 
-a.nav__button {
+.nav__button {
     border: none;
     border-radius: 22px;
     background-color: #FFFFFF;
@@ -84,7 +84,7 @@ a.nav__button {
     padding: 8px 19px 7px 18px;
 }
 
-a.nav__button-second {
+.nav__button-second {
     border: none;
     border-radius: 22px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
@@ -102,7 +102,7 @@ a.nav__button-second {
     padding: 10px 22px 9px 21px;
 }
 
-a.nav__button-second:hover {
+.nav__button-second:hover {
     opacity: 0.5;
 }
 

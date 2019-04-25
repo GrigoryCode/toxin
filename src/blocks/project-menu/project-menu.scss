@@ -1,0 +1,36 @@
+.project-menu {
+    position: fixed;
+    background-color: #1F2041;
+    top: 100px;
+    border-radius: 0 4px 4px 0;
+    z-index: 3;
+    // opacity: 0.9;
+    // padding: 10px;
+}
+
+.project-menu__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    // text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+}
+
+.project-menu__link:hover {
+    color: #E5E5E5;
+}
+
+.project-menu__ul {
+    padding: 0;
+    margin: 0;
+}
+
+.project-menu__li {
+    list-style-type: none;
+}

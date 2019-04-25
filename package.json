@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.pug --open",
+    "start": "parcel src/index.pug",
+    "open": "parcel src/index.pug --open",
     "build": "rm -R docs && parcel build src/index.pug -d docs --public-url ./",
     "clear": "rm -R docs"
   },

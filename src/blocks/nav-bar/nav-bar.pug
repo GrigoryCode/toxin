@@ -1,16 +1,24 @@
-.nav-bar
+nav.nav-bar
     .nav-bar__container
-        img.logo-img(src="./img/logo.svg", alt="Logo")
+        a.nav-logo
+            img.nav-logo_img(src="./img/logo.svg", alt="Logo")
         .nav-bar__links
             ul.nav__ul
                 li.nav__li
-                    a.nav__a(href="#") О нас
-                    a.nav__a(href="#") Услуги 
+                    a.nav__a О нас
+                li.nav__li
+                    a.nav__a Услуги 
                         img.nav_drop(src="./img/drop.svg", alt="Drop")
-                    a.nav__a(href="#") Вакансии
-                    a.nav__a(href="#") Новости
-                    a.nav__a(href="#") Соглашения
+                li.nav__li
+                    a.nav__a Вакансии
+                li.nav__li
+                    a.nav__a Новости
+                li.nav__li
+                    a.nav__a Соглашения
                         img.nav_drop(src="./img/drop.svg", alt="Drop")
-            .nav__button-wrap
-                a.nav__button(href="#") ВОЙТИ
-            a.nav__button-second(href="#") ЗАРЕГИСТРИРОВАТЬСЯ
+            ul.nav-user__ul
+                li.nav-user__li
+                    .nav-user__button-wrap
+                        a.nav-user__button ВОЙТИ
+                li.nav-user__li
+                    a.nav-user__button-second ЗАРЕГИСТРИРОВАТЬСЯ

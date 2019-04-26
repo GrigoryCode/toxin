@@ -1,7 +1,7 @@
 //  nav-bar --------------------------------------------------
 .nav-bar {
     width: 100%;
-    height: 70px;
+    // height: 70px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
@@ -12,10 +12,11 @@
     padding: 0 20px;
     margin: 0 auto;
     max-width: 1160px;
+    flex-wrap: wrap;
 }
 
-.logo-img {
-    vertical-align: middle;
+.nav-logo {
+    margin: 15px 0 11px 0;
 }
 
 .nav {
@@ -54,7 +55,19 @@
     color: rgba(31, 32, 65, 0.75);
 }
 
-.nav__button-wrap {
+.nav-user__ul {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.nav-user__li {
+    display: inline-block;
+}
+
+.nav-user__button-wrap {
     display: inline-block;
     margin: 18px 10px;
     padding: 2px;
@@ -62,11 +75,11 @@
     border-radius: 22px;
 }
 
-.nav__button-wrap:hover {
+.nav-user__button-wrap:hover {
     opacity: 0.5;
 }
 
-.nav__button {
+.nav-user__button {
     border: none;
     border-radius: 22px;
     background-color: #FFFFFF;
@@ -84,7 +97,7 @@
     padding: 8px 19px 7px 18px;
 }
 
-.nav__button-second {
+.nav-user__button-second {
     border: none;
     border-radius: 22px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
@@ -102,10 +115,10 @@
     padding: 10px 22px 9px 21px;
 }
 
-.nav__button-second:hover {
+.nav-user__button-second:hover {
     opacity: 0.5;
 }
 
-img.nav_drop {
+.nav_drop {
     margin: 0 6px;
 }

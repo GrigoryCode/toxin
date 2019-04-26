@@ -24,9 +24,21 @@
     font-size: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
+    margin-top: 13px;
+    // margin-bottom: 0;
+}
+
+.footer-1__text-2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
     margin-top: 18px;
     // margin-bottom: 0;
 }
+
 
 .footer-1__block-2 {
     width: 200px;
@@ -45,6 +57,7 @@
 
 .footer-1__ul {
     padding: 0;
+    margin: 21px 0;
 }
 
 .footer-1__li {
@@ -130,4 +143,8 @@
     position: absolute;
     right: 12px;
     top: 12px;
+}
+
+.footer-1-logo_img {
+    // margin: 0 0;
 }
